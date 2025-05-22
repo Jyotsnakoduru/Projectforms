@@ -1,0 +1,81 @@
+*{
+
+    @import url('https://fonts.cdnfonts.com/css/google-sans');
+font-family: 'Product Sans Medium', sans-serif;
+background-color: background: #2A7B9B;
+
+}
+body{
+    background-color: black;
+    color: black; 
+    background-color: background: #2A7B9B;
+background: linear-gradient(90deg, rgba(42, 123, 155, 0.6) 0%, rgba(237, 221, 83, 0.5) 100%, rgba(83, 145, 237, 0.7) 69%, rgba(188, 83, 237, 0.54) 26%, rgba(237, 83, 198, 0.64) 49%);;  
+}
+#head{
+    background: #2A7B9B;
+background-color: background: #9b2a70;
+background: linear-gradient(90deg, rgba(155, 42, 112, 1) 0%, rgba(237, 83, 204, 0.62) 100%, rgba(237, 83, 175, 1) 69%, rgba(204, 83, 237, 0.99) 26%, rgba(237, 83, 111, 1) 49%);;
+background-clip: text;
+color: transparent;
+}
+form{
+    width: 800px;
+
+}
+fieldset{
+    border: 3px solid green;
+    border-radius: 20px;
+}
+input:required {
+    border: 2px solid rgb(255, 0, 0);
+}
+input:optional{
+    border: 3px dashed  green;
+}
+input:read-only{
+    background-color: darkblue;
+    color:yellow;
+}
+
+
+input[type="radio"]:checked{
+    height: 20px;
+    width:20px;
+}
+input[type="radio"]:checked ~label{
+    color: yellow;
+}
+input[type="submit"]{
+    border: 3px solid orange;
+    border-radius: 8px;
+}
+select{
+    background-color: rgb(193, 118, 19);
+    border-radius: 10px;
+    cursor:pointer;
+}
+input:focus{
+    background-color: rgb(169, 13, 133);
+}
+input[type="text"]+span{
+    display: none;
+}
+input[type="text"]:hover+span{
+    display: inline;
+}
+img{
+    display: none;
+}
+input[type="email"]:focus:invalid~img#invalid{
+    display:inline ;
+    height: 20px;
+    width: 20px;
+}
+
+input[type="email"]:focus:valid~img#valid{
+    display:inline ;
+    height: 20px;
+    width: 20px;
+}
+
+

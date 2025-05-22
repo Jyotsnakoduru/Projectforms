@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="head">Course Registration Form</h1>
+    <form action="response.html">
+        <fieldset>
+            <legend>Personal Details</legend>
+            <table>
+
+                <tr>
+                    <td>
+                        <label>Firstname</label>
+                    </td>
+                    <td><input type="text" required>
+                        <span>Enter your name</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Lastname</label>
+                    </td>
+                    <td><input type="text"><br></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Phone Number</label>
+                    </td>
+                    <td><input type="number" required placeholder="763428723"><br></td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <label>Email</label>
+                    </td>
+                    <td><input type="email" required>
+                        <img id="valid" src="yes.jpg" alt="">
+                        <img id="invalid" src="no.jpg" alt="">
+                        <br></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Password</label>
+                    </td>
+                    <td><input type="password"><br> </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Confirm Password</label>
+                    </td>
+                    <td><input type="password"><br></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Gender</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="gender" id="" /><label>MALE</label>
+                        <input type="radio" name="gender" id="" /><label>FEMALE</label>
+                        <input type="radio" name="gender" id="" /><label>OTHERS</label>
+                        <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Select Country</label>
+
+                    </td>
+                    <td>
+                        <select name="" id="">
+                            <option value="">India</option>
+                            <option value="">Usa</option>
+                            <option value="">Japan</option>
+                        </select>
+                        <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Upload File</label></td>
+                    <td><input type="file"><br></td>
+                </tr>
+                <tr>
+                    <td><input type="reset" </td>
+                </tr>
+                
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Course Details</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label>Select Course</label><br>
+                        <select course="" id="">
+                            <option value="">Python Full Stack</option>
+                            <option value="">Java Full Stack</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Delivery Mode</label>
+
+                        <input type="radio" name="Delivery Mode" id="" /><label>ONLINE</label>
+                        <input type="radio" name="Delivery Mode" id="" /><label>OFFLINE</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Comments</label><br>
+                        <textarea name="" id="" rows="5" cols="45"></textarea>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    
+
+    </form>
+    <tr>
+                    <td><input type="submit" <br></td>
+                </tr>
+</body>
+
+</html>
